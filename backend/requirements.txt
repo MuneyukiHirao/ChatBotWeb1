@@ -1,0 +1,17 @@
+# Flask本体
+Flask==2.3.2
+
+# CORSを使う場合
+Flask-Cors==4.0.0
+
+# OpenAI公式ライブラリ (GPT利用など)
+openai==0.27.8
+
+# HTTPリクエスト処理 (api_functions.pyなどで利用想定)
+requests==2.31.0
+
+# .envから環境変数を読み込むため (ローカル環境用)
+python-dotenv==1.0.0
+
+# Gunicorn (Azure上で使う場合など、WSGIサーバーとして使うなら)
+gunicorn==21.2.0

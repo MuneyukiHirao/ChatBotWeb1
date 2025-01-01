@@ -1,0 +1,267 @@
+[
+  {
+    "companyId": "C001",
+    "machines": [
+      {
+        "machineId": "M0001",
+        "model": "PC200-8",
+        "serial": "100001"
+      }
+    ]
+  },
+  {
+    "companyId": "C002",
+    "machines": [
+      {
+        "machineId": "M0002",
+        "model": "PC300-7",
+        "serial": "200001"
+      },
+      {
+        "machineId": "M0003",
+        "model": "PC200-8",
+        "serial": "200002"
+      }
+    ]
+  },
+  {
+    "companyId": "C003",
+    "machines": [
+      {
+        "machineId": "M0004",
+        "model": "WA380",
+        "serial": "300001"
+      },
+      {
+        "machineId": "M0005",
+        "model": "PC200-8",
+        "serial": "300002"
+      },
+      {
+        "machineId": "M0006",
+        "model": "D65EX",
+        "serial": "300003"
+      },
+      {
+        "machineId": "M0007",
+        "model": "EX1000",
+        "serial": "300004"
+      },
+      {
+        "machineId": "M0008",
+        "model": "PC300-7",
+        "serial": "300005"
+      }
+    ]
+  },
+  {
+    "companyId": "C004",
+    "machines": [
+      {
+        "machineId": "M0009",
+        "model": "PC200-8",
+        "serial": "400001"
+      },
+      {
+        "machineId": "M0010",
+        "model": "PC200-8",
+        "serial": "400002"
+      },
+      {
+        "machineId": "M0011",
+        "model": "PC300-7",
+        "serial": "400003"
+      },
+      {
+        "machineId": "M0012",
+        "model": "WA380",
+        "serial": "400004"
+      },
+      {
+        "machineId": "M0013",
+        "model": "WA380",
+        "serial": "400005"
+      },
+      {
+        "machineId": "M0014",
+        "model": "D65EX",
+        "serial": "400006"
+      },
+      {
+        "machineId": "M0015",
+        "model": "D65EX",
+        "serial": "400007"
+      },
+      {
+        "machineId": "M0016",
+        "model": "EX1000",
+        "serial": "400008"
+      },
+      {
+        "machineId": "M0017",
+        "model": "EX1000",
+        "serial": "400009"
+      },
+      {
+        "machineId": "M0018",
+        "model": "PC200-8",
+        "serial": "400010"
+      }
+    ]
+  },
+  {
+    "companyId": "C005",
+    "machines": [
+      {
+        "machineId": "M0019",
+        "model": "PC200-8",
+        "serial": "500001"
+      },
+      {
+        "machineId": "M0020",
+        "model": "PC200-8",
+        "serial": "500002"
+      },
+      {
+        "machineId": "M0021",
+        "model": "PC300-7",
+        "serial": "500003"
+      },
+      {
+        "machineId": "M0022",
+        "model": "WA380",
+        "serial": "500004"
+      },
+      {
+        "machineId": "M0023",
+        "model": "EX1000",
+        "serial": "500005"
+      },
+      {
+        "machineId": "M0024",
+        "model": "PC200-8",
+        "serial": "500006"
+      },
+      {
+        "machineId": "M0025",
+        "model": "PC200-8",
+        "serial": "500007"
+      },
+      {
+        "machineId": "M0026",
+        "model": "PC200-8",
+        "serial": "500008"
+      },
+      {
+        "machineId": "M0027",
+        "model": "D65EX",
+        "serial": "500009"
+      },
+      {
+        "machineId": "M0028",
+        "model": "PC300-7",
+        "serial": "500010"
+      },
+      {
+        "machineId": "M0029",
+        "model": "PC200-8",
+        "serial": "500011"
+      },
+      {
+        "machineId": "M0030",
+        "model": "WA380",
+        "serial": "500012"
+      },
+      {
+        "machineId": "M0031",
+        "model": "WA380",
+        "serial": "500013"
+      },
+      {
+        "machineId": "M0032",
+        "model": "EX1000",
+        "serial": "500014"
+      },
+      {
+        "machineId": "M0033",
+        "model": "D65EX",
+        "serial": "500015"
+      },
+      {
+        "machineId": "M0034",
+        "model": "D65EX",
+        "serial": "500016"
+      },
+      {
+        "machineId": "M0035",
+        "model": "PC200-8",
+        "serial": "500017"
+      },
+      {
+        "machineId": "M0036",
+        "model": "PC200-8",
+        "serial": "500018"
+      },
+      {
+        "machineId": "M0037",
+        "model": "PC300-7",
+        "serial": "500019"
+      },
+      {
+        "machineId": "M0038",
+        "model": "WA380",
+        "serial": "500020"
+      },
+      {
+        "machineId": "M0039",
+        "model": "EX1000",
+        "serial": "500021"
+      },
+      {
+        "machineId": "M0040",
+        "model": "EX1000",
+        "serial": "500022"
+      },
+      {
+        "machineId": "M0041",
+        "model": "PC300-7",
+        "serial": "500023"
+      },
+      {
+        "machineId": "M0042",
+        "model": "PC300-7",
+        "serial": "500024"
+      },
+      {
+        "machineId": "M0043",
+        "model": "D65EX",
+        "serial": "500025"
+      },
+      {
+        "machineId": "M0044",
+        "model": "D65EX",
+        "serial": "500026"
+      },
+      {
+        "machineId": "M0045",
+        "model": "PC200-8",
+        "serial": "500027"
+      },
+      {
+        "machineId": "M0046",
+        "model": "PC200-8",
+        "serial": "500028"
+      },
+      {
+        "machineId": "M0047",
+        "model": "PC200-8",
+        "serial": "500029"
+      },
+      {
+        "machineId": "M0048",
+        "model": "WA380",
+        "serial": "500030"
+      }
+    ]
+  }
+]

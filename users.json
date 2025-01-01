@@ -1,0 +1,72 @@
+[
+  {
+    "userId": "U001",
+    "userName": "山田 太郎",
+    "companyId": "C001",
+    "companyName": "AAA建設",
+    "email": "yamada@aaa.co.jp"
+  },
+  {
+    "userId": "U002",
+    "userName": "佐藤 花子",
+    "companyId": "C001",
+    "companyName": "AAA建設",
+    "email": "sato@aaa.co.jp"
+  },
+  {
+    "userId": "U003",
+    "userName": "伊藤 次郎",
+    "companyId": "C002",
+    "companyName": "BBB土木",
+    "email": "ito@bbb.co.jp"
+  },
+  {
+    "userId": "U004",
+    "userName": "鈴木 五郎",
+    "companyId": "C002",
+    "companyName": "BBB土木",
+    "email": "suzuki@bbb.co.jp"
+  },
+  {
+    "userId": "U005",
+    "userName": "渡辺 三恵",
+    "companyId": "C002",
+    "companyName": "BBB土木",
+    "email": "watanabe@bbb.co.jp"
+  },
+  {
+    "userId": "U006",
+    "userName": "高橋 明",
+    "companyId": "C003",
+    "companyName": "CCC工業",
+    "email": "takahashi@ccc.co.jp"
+  },
+  {
+    "userId": "U007",
+    "userName": "中村 亮介",
+    "companyId": "C004",
+    "companyName": "DDDプラント",
+    "email": "nakamura@ddd.co.jp"
+  },
+  {
+    "userId": "U008",
+    "userName": "加藤 沙織",
+    "companyId": "C004",
+    "companyName": "DDDプラント",
+    "email": "kato@ddd.co.jp"
+  },
+  {
+    "userId": "U009",
+    "userName": "森田 健",
+    "companyId": "C005",
+    "companyName": "EEEサービス",
+    "email": "morita@eee.co.jp"
+  },
+  {
+    "userId": "U010",
+    "userName": "小林 祐介",
+    "companyId": "C005",
+    "companyName": "EEEサービス",
+    "email": "kobayashi@eee.co.jp"
+  }
+]

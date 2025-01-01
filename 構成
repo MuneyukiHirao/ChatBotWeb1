@@ -1,0 +1,24 @@
+/ (ルート)
+├─ /frontend             # Reactアプリ
+│    ├─ package.json
+│    ├─ src
+│    │    ├─ App.tsx / App.jsx
+│    │    ├─ components
+│    │    ├─ pages
+│    │    │    ├─ LoginPage.tsx
+│    │    │    ├─ SelectUserPage.tsx
+│    │    │    └─ ChatPage.tsx
+│    │    └─ ...
+│    └─ public
+│    └─ ...
+├─ /backend              # Flaskアプリ
+│    ├─ requirements.txt
+│    ├─ run.py           # Flaskエントリポイント
+│    ├─ .env (gitignore対象)
+│    ├─ api_functions.py
+│    ├─ chat_bot.py
+│    ├─ users.json
+│    └─ ...
+├─ .gitignore
+├─ README.md
+└─ ...
