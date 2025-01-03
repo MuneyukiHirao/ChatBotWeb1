@@ -1,0 +1,59 @@
+name: Build and Deploy ChatBot to Azure Web App
+
+on:
+  push:
+    branches:
+      - main  # mainブランチがpushされたら実行
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v3
+
+    # 1) フロントエンドをビルド
+    - name: Set up Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: "18"
+
+    - name: Install and build frontend
+      working-directory: ./frontend
+      run: |
+        npm install
+        npm run build
+
+    # 2) バックエンドのPython依存をインストール
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install pip dependencies
+      working-directory: ./backend
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # 3) Azure Web App Deploy
+    #    前提: Azure Web App発行プロファイル or Azure Service Principal クレデンシャルを
+    #    GitHub Secretsに設定しておく (AZURE_WEBAPP_PUBLISH_PROFILEなど)
+    - name: Deploy to Azure WebApp
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: "ChatBot1"         # Azure Web App の名前
+        slot-name: "Production"            # スロットがない場合はProduction
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        package: '.'                       # リポジトリ全体をzipしてデプロイ
+
+        # ↑ package: '.' でルート全体をアップロードし、
+        #   Azure Web App側で python backend/run.py を起動する想定。
+        #   もし別構成にしたい場合は zipを明示的に作ったりできる。
+
+    # (オプション) デプロイ後にAzure上で startup commandを設定する方法:
+    #   -> Azure Portal -> Web App -> Configuration -> General Settings -> Startup command
+    #      python backend/run.py
+
