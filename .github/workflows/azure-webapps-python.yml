@@ -44,7 +44,7 @@ jobs:
     - name: Deploy to Azure WebApp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: "ChatBot1"         # Azure Web App の名前
+        app-name: "chatbot-h"         # Azure Web App の名前
         slot-name: "Production"            # スロットがない場合はProduction
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
         package: '.'                       # リポジトリ全体をzipしてデプロイ
