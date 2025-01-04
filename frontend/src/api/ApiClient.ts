@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // 環境変数からAPIのベースURLを取得 (ない場合はローカル)
-const BASE_URL = 'https://upgraded-space-cod-6jwrvpw49j6cggr-5000.app.github.dev/'
+const BASE_URL = 'https://chatbot-h.azurewebsites.net'
 
 export async function login(userId: string, password: string) {
   const resp = await axios.post(`${BASE_URL}/api/login`, {
