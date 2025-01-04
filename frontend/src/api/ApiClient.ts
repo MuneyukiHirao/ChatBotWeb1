@@ -2,6 +2,7 @@ import axios from 'axios'
 
 // 環境変数からAPIのベースURLを取得 (ない場合はローカル)
 const BASE_URL = 'https://chatbot-h.azurewebsites.net'
+console.log("BASE_URL from ApiClient.ts = ", BASE_URL)
 
 export async function login(userId: string, password: string) {
   const resp = await axios.post(`${BASE_URL}/api/login`, {
