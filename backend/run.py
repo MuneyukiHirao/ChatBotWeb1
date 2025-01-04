@@ -11,8 +11,8 @@ from datetime import datetime
 # chat_bot.py から generate_bot_reply をimport
 from chat_bot import generate_bot_reply
 
-# app = Flask(__name__, static_folder="../frontend/dist", static_url_path="/")
-app = Flask(__name__, static_folder=..., static_url_path=...)
+app = Flask(__name__, static_folder="../frontend/dist", static_url_path="/")
+# app = Flask(__name__, static_folder=..., static_url_path=...)
 
 app.config["SECRET_KEY"] = os.environ.get("FLASK_SECRET_KEY", "demo-secret-key")
 #CORS(app, origins=["https://upgraded-space-cod-6jwrvpw49j6cggr-5000.app.github.dev/", "https://upgraded-space-cod-6jwrvpw49j6cggr-5173.app.github.dev/"])
