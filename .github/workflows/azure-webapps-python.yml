@@ -32,11 +32,11 @@ jobs:
       with:
         python-version: "3.10"
 
-    - name: Install pip dependencies
-      working-directory: ./backend
-      run: |
-        pip install --upgrade pip
-        pip install -r requirements.txt
+#    - name: Install pip dependencies
+#      working-directory: ./backend
+#      run: |
+#        pip install --upgrade pip
+#        pip install -r requirements.txt
 
     # 3) Azure Web App Deploy
     #    前提: Azure Web App発行プロファイル or Azure Service Principal クレデンシャルを
