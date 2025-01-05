@@ -23,7 +23,8 @@ sessions = {}  # sessionId -> { isLoggedIn, userId, conversation (list) }
 
 def get_session_data(session_id):
     if session_id not in sessions:
-        sessions[session_id] = {
+       debug_print(f"session_id={session_id} not found. Creating new session with isLoggedIn=False.")
+       sessions[session_id] = {
             "isLoggedIn": False,
             "userId": None,
             "conversation": []
