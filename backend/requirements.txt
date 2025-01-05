@@ -16,5 +16,5 @@ python-dotenv==1.0.0
 # Gunicorn (Azure上で使う場合など、WSGIサーバーとして使うなら)
 gunicorn==21.2.0
 
-typing_extensions==4.7.1
+typing_extensions==4.11
 idna==3.8
