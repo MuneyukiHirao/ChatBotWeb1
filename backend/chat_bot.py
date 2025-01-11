@@ -152,7 +152,7 @@ def generate_bot_reply(conversation: List[Dict]) -> str:
             # リトライしてみる
             try:
                 response2_retry = openai.chat.completions.create(
-                    model="gpt-4",
+                    model="gpt-4o",
                     messages=conversation,
                     functions=function_definitions,
                     function_call="auto",
