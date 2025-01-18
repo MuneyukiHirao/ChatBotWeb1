@@ -1,4 +1,4 @@
-# ChatBotWeb1 - README (English)
+# ChatBotWeb1 - README
 
 ## Overview
 
