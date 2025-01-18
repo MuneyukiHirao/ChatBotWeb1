@@ -87,6 +87,7 @@ pip install -r requirements.txt
 # 3) Run Flask
 python run.py
 # or gunicorn --chdir backend run:app --bind=0.0.0.0:$PORT
+```
 
 # The Flask app will serve:
 #  /api/... for backend endpoints
