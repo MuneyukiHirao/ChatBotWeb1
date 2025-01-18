@@ -42,7 +42,7 @@ This repository contains a web-based chatbot application that leverages a **Flas
 ├── system_prompt.txt      # System prompt rules for the bot
 ├── Procfile               # Start commands for Azure deployment
 └── ...
-
+```
 
 ### Key Components
 
