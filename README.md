@@ -87,12 +87,11 @@ pip install -r requirements.txt
 # 3) Run Flask
 python run.py
 # or gunicorn --chdir backend run:app --bind=0.0.0.0:$PORT
-```
 
 # The Flask app will serve:
 #  /api/... for backend endpoints
 #  / for the built frontend (if static_folder is set to ../frontend/dist)
-
+```
 
 Open your browser at http://localhost:5000 (or the Azure-assigned domain when deployed).
 
@@ -106,16 +105,20 @@ Create an Azure Web App (Python) from the Portal.
 
 In Deployment Center, link your GitHub repo & branch.
 
+```bash
 Add a build command, e.g.:
 cd frontend
 npm install
 npm run build
 cd ../backend
 pip install -r requirements.txt
+```
 
 Startup command:
 
+```bash
 python backend/run.py
+```
 
 In Configuration > Application Settings, add OPENAI_API_KEY.
 
